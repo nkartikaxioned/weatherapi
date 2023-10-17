@@ -1,6 +1,6 @@
 <!doctype html>
 <!-- If multi-language site, reconsider usage of html lang declaration here. -->
-<html lang="en"> 
+<html lang="en">
 
 <head>
   <meta charset="utf-8">
@@ -13,10 +13,10 @@
   <!-- Place favicon.ico in the root directory: mathiasbynens.be/notes/touch-icons -->
   <link rel="shortcut icon" href="favicon.ico" />
   <!--font-awesome link for icons-->
-  <link rel="stylesheet" media="screen" href="assets/vendor/font-awesome/css/all.min.css" >
+  <link rel="stylesheet" media="screen" href="assets/vendor/font-awesome/css/all.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <!-- Default style-sheet is for 'media' type screen (color computer display).  -->
-  <link rel="stylesheet" media="screen" href="assets/css/style.css" >
+  <link rel="stylesheet" media="screen" href="assets/css/style.css">
 </head>
 
 <body>
@@ -24,17 +24,38 @@
   <div class="container">
     <!--header section start-->
     <header>
-      
+
     </header>
     <!--header section start-->
     <!--main section start-->
     <main>
-
+      <section class="weather">
+        <div class="wrapper">
+          <form action="#FIXME" method="post" class="search">
+            <div class="input-container">
+              <input type="text" class="input-text" placeholder="Find your location...">
+              <input type="submit" class="submit" value="Find">
+            </div>
+          </form>
+          <div class="data-container">
+            <div class="structure">
+              <span class="day">day</span>
+              <span class="date">date</span>
+            </div>
+            <span class="city common">city</span>
+            <span class="temprature common">temprature</span>
+            <span class="temp-symbol common">symbol</span>
+            <span class="rain-probability common">rain-probability</span>
+            <span class="wind-speed common">wind-speed</span>
+            <span class="wind-direction common">wind-direction</span>
+          </div>
+        </div>
+      </section>
     </main>
     <!--main section end-->
 
     <!--footer section start-->
-    <footer>      
+    <footer>
 
     </footer>
     <!--footer section end-->
@@ -43,4 +64,5 @@
   <!--container end-->
   <script src="assets/js/script.js"></script>
 </body>
+
 </html>
