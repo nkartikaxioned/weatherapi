@@ -29,7 +29,7 @@
     <!--header section start-->
     <!--main section start-->
     <main>
-      <section class="weather">
+      <div class="weather">
         <div class="wrapper">
           <form action="#FIXME" method="post" class="search">
             <div class="input-container">
@@ -43,14 +43,18 @@
               <span class="date">date</span>
             </div>
             <span class="city common">city</span>
-            <span class="temprature common">temprature</span>
-            <span class="temp-symbol common">symbol</span>
-            <span class="rain-probability common">rain-probability</span>
-            <span class="wind-speed common">wind-speed</span>
-            <span class="wind-direction common">wind-direction</span>
+            <div class="temprature-container">
+              <span class="temprature common">temprature</span>
+              <span class="temp-symbol common">symbol</span>
+            </div>
+            <div class="other-detail">
+              <span class="rain-probability common">rain-probability <span class="text"></span> </span>
+              <span class="wind-speed common">wind-speed <span class="text"></span></span>
+              <span class="wind-direction common">wind-direction <span class="text"></span></span>
+            </div>
           </div>
         </div>
-      </section>
+      </div>
     </main>
     <!--main section end-->
 
