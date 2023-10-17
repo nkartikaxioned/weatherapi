@@ -156,6 +156,8 @@ main {
   color: #fff;
  }
 
+ .submit:hover { outline: 1px solid #fff; }
+
  .data-container {
   width: 40%;
   position: absolute;
@@ -190,32 +192,34 @@ main {
 }
 
 .temprature, .temp-symbol {
-   margin-bottom: 18px;
-   font-size: 0; 
-   /* font-size: 75px;  */
+   margin-bottom: 18px; 
+   font-size: 75px; 
    font-weight: 600;
   }
 
+
 .other-detail{ margin-bottom: 10px; }
-.rain-probability, .wind-speed, .wind-direction {font-size: 0;}
 
-.rain-probability::after {
-  content: "\f0e9";
+.rain-probability, .wind-speed, .wind-direction {
+  font-size: 16px; 
   font-family: "fontAwesome";
-  font-size: 16px;
 }
 
-.wind-speed::after {
-  content: "\f14e";
+.temp-symbol {
+  font-size: 0;
   font-family: "fontAwesome";
-  font-size: 16px;
 }
 
-.wind-direction::after {
-  content: "\f14e";
-  font-family: "fontAwesome";
-  font-size: 16px;
+.temp-symbol::before { 
+  content: "\f185";
+  padding-left: 30px; 
+  font-size: 75px; 
 }
+
+.rain-probability::before { content: "\f0e9"; padding-right: 8px;}
+.wind-speed::before { content: "\f14e"; padding-right: 8px;}
+.wind-direction::before { content: "\f14e"; padding-right: 8px;}
+
 /*=================================
   main styling ends here
 =================================*/
