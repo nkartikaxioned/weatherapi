@@ -143,6 +143,7 @@ main {
   border-radius: 40px;
   outline: none;
   font-size: 16px;
+  color: #fff;
 }
 
 .submit { 
@@ -197,10 +198,9 @@ main {
    font-weight: 600;
   }
 
-
 .other-detail{ margin-bottom: 10px; }
 
-.rain-probability, .wind-speed, .wind-direction {
+.wind-speed, .wind-direction {
   font-size: 16px; 
   font-family: "fontAwesome";
 }
@@ -216,10 +216,9 @@ main {
   font-size: 75px; 
 }
 
-.rain-probability::before { content: "\f0e9"; padding-right: 8px;}
 .wind-speed::before { content: "\f14e"; padding-right: 8px;}
 .wind-direction::before { content: "\f14e"; padding-right: 8px;}
-
+.error-msg { padding: 20px; color: #fff; text-align: center;}
 /*=================================
   main styling ends here
 =================================*/
