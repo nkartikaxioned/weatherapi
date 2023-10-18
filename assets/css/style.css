@@ -137,6 +137,7 @@ main {
 }
 
 .input-text {
+  width: 60%;
   padding: 15px;
   background-color: #202233;
   border: none;
@@ -165,7 +166,7 @@ main {
   right: 31%;
   display: flex;
   flex-direction: column;
-  background: #3A3D4F;
+  background: #60626e;
  }
 
  .structure { 
@@ -205,16 +206,11 @@ main {
   font-family: "fontAwesome";
 }
 
-.temp-symbol {
-  font-size: 0;
-  font-family: "fontAwesome";
-}
-
-.temp-symbol::before { 
+/* .temp-symbol::before { 
   content: "\f185";
   padding-left: 30px; 
   font-size: 75px; 
-}
+} */
 
 .wind-speed::before { content: "\f14e"; padding-right: 8px;}
 .wind-direction::before { content: "\f14e"; padding-right: 8px;}
